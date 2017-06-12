@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is Guardian?" ,
+    "answer": "Guardian is an interactive application designed to ensure that all wireless communications facilities administered by the FCC/FAA Regulatory Compliance Team comply with FCC and FAA regulations. It houses FCC/FAA compliance documentation and information for each structure owned or leased by AT&T and the spectrum operating on that structure. Guardian is also the tool the Network Team uses to notify the FCC/FAA Regulatory Compliance Team of new and/or modified structures and spectrum related updates and to provide requisite information to meet the AT&T Compliance Program. "
+  },
+  {
+    "question": "How do I get access to Guardian? ",
+    "answer": "To obtain write access to Guardian, follow these steps: 1. Obtain approval from John Monday to sign on his behalf in Guardian; 2. Complete all Learning Service Courses; and 3. Complete an instructor lead training conducted by a member of the FCC/FAA Regulatory Compliance Team. For Read Only access to Guardian, send an email requesting access to Guardian@att.com with your ATTUID."
+  },
+  {
+    "question": "Where is the FCC/FAA Regulatory Compliance Team Website located? ",
+    "answer": "The website is located at http://fcc.cingular.net/. You can also get to this link by clicking on the 'Reg Website' button on the tool bar in this application. "
+  },
+  {
+    "question": "What is the Guardian mailbox email address if I need to send an inquiry? ",
+    "answer": "GUARDIAN is the name in Outlook. The address is: GUARDIAN@ATT.com. "
+  },
+  {
+    "question": "Where can I find rules and procedures related to structure and spectrum compliance? ",
+    "answer": "The rules and procedures related to structure and spectrum compliance, as well as the AT&T Compliance Program are located at the FCC/FAA Regulatory Compliance Team website at http://fcc.cingular.net/."
+  },
+  {
+    "question": "How should a survey with an accuracy of better than +/- 3’ vertical and better than +/-20’ horizontal be labeled in Guardian? ",
+    "answer": "A 1A survey, which defines a survey with an accuracy within +/- 3’ vertical and +/- 20’ horizontal, is the most accurate survey category (FAA Order 8260.19D). Any survey with an accuracy of +/- 3’ vertical and +/- 20’ horizontal or better must be reflected as 1A survey in Guardian. If the survey obtained is not to the 1A accuracy standard and the Guardian “Survey” drop down options does not reflect the accuracy standard provided in the survey, select “Other” and provide a description. "
+  },
+  {
+    "question": "Are there any risks with using Guardian data for purposes other than structure compliance? ",
+    "answer": "Guardian was created to ensure AT&T is compliant with the FCC regulations and FAA flight safety rules. Although Guardian information is frequently updated, someone seeking to use Guardian for any purpose other than compliance should understand how the data is obtained, updated and used. Please note that data housed in Guardian is only as complete as the information that Network has updated. "
+  },
+  {
+    "question": "How can I get a pending Guardian request expedited/rushed for processing? ",
+    "answer": "Typically, Guardian requests are processed within a 48 hour time frame once it is assigned to a FCC/FAA Regulatory Compliance Team Analyst, provided Network has timely and accurately submitted all requisite data and no issues are identified during analysis of the request. Requests submitted to address an emergency situation, such as natural disasters and deployment of COWs, can be submitted to the Guardian email box (Guardian@att.com) for expedited processing. "
+  },
+  {
+    "question": "What is the AT&T Market County Listing? ",
+    "answer": "It is a spreadsheet that contains information for the AT&T licensed call signs by county that are administered by the FAA/FCC Regulatory Compliance Team. It contains additional information such as, frequencies, state, call sign, etc. "
+  }
+]

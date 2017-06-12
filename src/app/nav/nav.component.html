@@ -1,0 +1,262 @@
+<header>
+		 <nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a href="#" class="navbar-brand">
+				<span class="att_primary_logo"></span>
+				<span style="float:left;margin-top:20px;margin-left:-15px;margin-right:35px;">GUARDIAN</span>
+			  </a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav" role="menu" aria-labelledby="dLabel">
+				<li><a [routerLink]="['/dashboard']"><span class="fa fa-dashboard"></span> Home</a></li>
+				<li><a href="" routerLink="90DaysSearchComponent"><span class="fa fa-tasks"></span> Pending Requests</a></li>
+				<li>
+					<a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false"><span class="fa fa-search"></span> Search <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#/request-search">Request Search</a></li>
+						<li><a href="#/structureDataSearch" >Structure Data Search</a></li>
+						<li><a href="#/mlReviewSerach">M/L Review Search</a></li>
+						<li><a href="#/callsignFilingSearch">Callsign Filing Search</a></li>
+						<li><a href="#/90-days-search">90-Day Search</a></li>
+						<li><a href="#/qaReviewSearch">QA Review Search</a></li>
+						<li><a href="#/qaReviewReassign">QA Review Re-Assign</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+						<a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false"><span class="fa fa-wpforms"></span> Forms <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						  <li class="dropdown-submenu">
+							<a tabindex="0">Existing Structure</a>
+							  <ul class="dropdown-menu">
+								<li class="dropdown-submenu">
+								  <a tabindex="0">National Environmental Policy Act (NEPA)</a>
+								  <ul class="dropdown-menu">
+									<li><a tabindex="0" href="javascript:void();" data-toggle="modal" data-target="#nepaForm">NEPA Form</a></li>
+								  </ul>
+								</li>
+								<li class="dropdown-submenu">
+								  <a tabindex="0">Preconstruction</a>
+								  <ul class="dropdown-menu">
+									<li><a tabindex="0">Preconstruction Form</a></li>
+								  </ul>
+								</li>
+								<li class="dropdown-submenu">
+								  <a tabindex="0">Post Construction</a>
+								  <ul class="dropdown-menu">
+									<li><a tabindex="0">Nonmicrowave Form </a></li>
+									<li><a tabindex="0">Microwave Form </a></li>
+									<li><a tabindex="0">Millimeter Form </a></li>
+									<li><a tabindex="0">Wireline Microwave </a></li>
+								  </ul>
+								</li>
+								<li class="dropdown-submenu">
+								  <a tabindex="0">In-Service Notification (ISN)</a>
+								  <ul class="dropdown-menu">
+									<li><a tabindex="0">Nonmicrowave Form </a></li>
+									<li><a tabindex="0">Microwave Form </a></li>
+									<li><a tabindex="0">Millimeter Form </a></li>
+									<li><a tabindex="0">Wireline Microwave </a></li>
+								  </ul>
+								</li>
+								<li class="dropdown-submenu">
+								  <a tabindex="0">Consolidated</a>
+								  <ul class="dropdown-menu">
+									<li><a tabindex="0">Consolidated Form</a></li>
+								  </ul>
+								</li>
+							  </ul>
+							</li>
+							
+							<li class="dropdown-submenu">
+							  <a tabindex="0">Add New Structure</a>
+							  <ul class="dropdown-menu">
+								<li class="dropdown-submenu">
+								  <a tabindex="0">National Environmental Policy Act (NEPA)</a>
+								  <ul class="dropdown-menu">
+									<li><a tabindex="0" data-toggle="modal" data-target="#nepaForm">NEPA Form</a></li>
+								  </ul>
+								</li>
+								<li class="dropdown-submenu">
+								  <a tabindex="0">Preconstruction</a>
+								  <ul class="dropdown-menu">
+									<li><a tabindex="0">Preconstruction Form</a></li>
+								  </ul>
+								</li>
+								<li class="dropdown-submenu">
+								  <a tabindex="0">Consolidated</a>
+								  <ul class="dropdown-menu">
+									<li><a tabindex="0">Consolidated Form</a></li>
+								  </ul>
+								</li>
+							  </ul>
+							</li>
+							<li><a tabindex="0">Non Routine Structure</a></li>
+						</ul>
+				</li>
+				<li>
+					<a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false"><span class="fa fa-table"></span> Tables <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-submenu">
+							<a tabindex="0">Upload Files</a>
+							 <ul class="dropdown-menu">
+								 <li><a tabindex="0">Upload Files</a></li>				
+							</ul>               
+						</li>
+						<li class="dropdown-submenu">
+							<a tabindex="0">Market Administration</a>
+							<ul class="dropdown-menu">
+								<li><a tabindex="0">Region</a></li>
+								<li><a href="#/market-administration-market" tabindex="0">Market</a></li>
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a tabindex="0" href="#">Radio Service Administration</a>
+							<ul class="dropdown-menu">
+								<li><a tabindex="0" href="#">Radio Service</a></li>
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Structure Integration Administration</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Deccouple</a></li>
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Vendor Administration</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Vendor</a></li>	
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Call Sign Administration</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Nonmicrowave Call Sign</a></li>
+								<li><a href="#" tabindex="0">Microwave Call Sign</a></li>
+								<li><a href="#" tabindex="0">Millimeter Call Sign</a></li>
+								<li><a href="#" tabindex="0">Reassign Call Sign</a></li>
+								<li><a href="#" tabindex="0">Bulk Call Sign Update</a></li>
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Vendor Billing Administration</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Vendor Billing History</a></li>										
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Project Management </a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Project Types</a></li>
+								<li><a href="#">Projects</a></li>
+								<li><a href="#">Create Sub-Project</a></li>							
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Non-Routine Structure Administration</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Non-Routine Structure Information </a></li>
+								<li><a href="#" tabindex="0">Upload Non Routine Structure Information</a></li>
+								<li><a href="#" tabindex="0">Non Routine Upload History</a></li>
+								<li><a href="#" tabindex="0">Data Source</a></li>							
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Error Code Administration</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Manage QA Review Error code</a></li>
+								<li><a href="#" tabindex="0">Manage QA Error Severity Penalty</a></li>
+								<li><a href="#" tabindex="0">Manage ON HOLD Error</a></li>
+								<li><a href="#" tabindex="0">Manage ON HOLD Sub-Error </a></li>
+								<li><a href="#" tabindex="0">Download ON HOLD Error code</a></li>						
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Structure Administration </a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Structure Information Administration </a></li>
+								<li><a href="#" tabindex="0">In Progress Structure Administration </a></li>
+								<li><a href="#" tabindex="0">Dismantled Structure Administration </a></li>																		
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Tracking Table Administration </a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Search/Add CGSA Filings </a></li>
+								<li><a href="#" tabindex="0">FCC Filings </a></li>
+								<li><a href="#" tabindex="0">FAA Filings </a></li>
+								<li><a href="#" tabindex="0">Millimeter Link Tracking </a></li>
+								<li><a href="#" tabindex="0">TCNS/Section 106 Filings </a></li>									
+							</ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" tabindex="0">Upload Doc File Path</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">Upload Doc File Path</a></li>																		
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false"><span class="fa fa-bar-chart"></span> Reports <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						 <li class="dropdown-submenu">
+							<a href="#" tabindex="0">AT& Mobility Report</a>
+							 <ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">AT&T Mobility County List</a></li> 
+								<li><a href="#" tabindex="0">AT&T Mobility Licensee List </a></li>   
+								<li><a href="#" tabindex="0">Contact Us List</a></li>   								
+							</ul>
+						  </li>
+						  <li class="dropdown-submenu">
+							  <a href="#">Dynamic Report</a>
+							  <ul class="dropdown-menu">
+								 <li><a href="#" tabindex="0">Dynamic Request Report</a></li>	
+								 <li><a href="#" tabindex="0">Dynamic Structure Report</a></li>					 
+							  </ul>
+						  </li>
+						  <li class="dropdown-submenu">
+							<a href="#" tabindex="0">Standard Report</a>
+							<ul class="dropdown-menu">
+								 <li><a href="#" tabindex="0">90-Day Lighting and Alarming Verification Report </a></li>	
+								 <li><a href="#" tabindex="0">Corporation Structure Location Report </a></li>					 
+							</ul>
+						  </li>
+					</ul>
+				</li>
+				<li>
+					<a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false"><span class="fa fa-unlock"></span> Admin <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						 <li><a href="#/user-role">Home Page</a></li>
+						 <li><a href="#">FAQ</a></li>
+						 <li><a href="#">News Now</a></li>
+						 <li><a href="#">Help</a></li>
+						 <li class="dropdown-submenu">
+							<a href="#" tabindex="0">User Admin</a>
+							 <ul class="dropdown-menu">
+								<li><a href="#" tabindex="0">User</a></li> 
+								<li><a href="#" tabindex="0">User Email List</a></li>    								
+							</ul>
+						  </li>
+					</ul>
+				</li>
+			  </ul>
+			  
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a routerLink="/login"><span class="fa fa-sign-in"></span> Login</a></li>
+				<li><a href=""><span class="fa fa-mobile-phone"></span> Contact</a></li>
+				<li><a [routerLink]="['/faq']" href="#"><span class="fa fa-question"></span> Faq</a></li>
+				<!-- <li><a href="">Fixed top <span class="sr-only">(current)</span></a></li> -->
+			  </ul>
+			  
+			</div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+	</header>
+<router-outlet></router-outlet>
